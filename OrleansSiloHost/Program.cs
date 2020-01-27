@@ -9,8 +9,7 @@ using Orleans.Hosting;
 using OrleansSharedGrains;
 using Microsoft.Azure.KeyVault;
 using Microsoft.Azure.Services.AppAuthentication;
-using OrleansSharedInterface.ConcreteClasses;
-using OrleansSharedInterface;
+//using OrleansSharedInterface;
 namespace OrleansSiloHost
 {
     class Program
@@ -47,7 +46,6 @@ namespace OrleansSiloHost
                         });
                     builder.ConfigureEndpoints(IPAddress.Parse(ip), 33350, 20010, true);
                     builder.ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(VoteCountGrain).Assembly).WithReferences());
-                    builder.ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(ITreeIndexNode<IndexedCustomer>).Assembly).WithReferences());
                     builder.ConfigureLogging(logging => logging.AddConsole());
                     builder.ConfigureLogging(logging => logging.SetMinimumLevel(LogLevel.Warning));
                 })

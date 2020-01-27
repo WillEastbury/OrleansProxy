@@ -37,10 +37,10 @@ namespace OrleansClientFunctions
                 // This b) will probably break at some point
                 // But right now it does work, and it's FAST
 
-                //// THIS IS OPTIONAL 
-                //var hb = new HostBuilder()
-                //.UseOrleans(builder =>
-                //{
+                // // THIS IS OPTIONAL 
+                // var hb = new HostBuilder()
+                // .UseOrleans(builder =>
+                // {
                 //    builder.Configure<ClusterOptions>(options =>
                 //    {
                 //        options.ClusterId = "will";
@@ -63,9 +63,9 @@ namespace OrleansClientFunctions
                 //    builder.ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(ITreeIndexNode<IndexedCustomer>).Assembly).WithReferences());
                 //    builder.ConfigureLogging(logging => logging.AddConsole());
                 //    builder.ConfigureLogging(logging => logging.SetMinimumLevel(LogLevel.Warning));
-                //});
+                // });
 
-                //Task nt = Task.Factory.StartNew(() => hb.RunConsoleAsync());
+                // Task nt = Task.Factory.StartNew(() => hb.RunConsoleAsync());
                 // END OF OPTIONAL CODE
 
                 // Start the Client

@@ -9,9 +9,9 @@ using OrleansSharedInterface;
 
 namespace OrleansClientFunctions
 {
-    public class HelloWorld
+    public class Voting
     {
-        public HelloWorld(IClusterClient _cb)
+        public Voting(IClusterClient _cb)
         {
            cb = _cb;
         }

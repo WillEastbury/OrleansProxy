@@ -32,6 +32,5 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OrleansSharedInterface\OrleansSharedInterface.csproj" />
-    <ProjectReference Include="..\OrleansSharedGrains\OrleansSharedGrains.csproj" />
   </ItemGroup>
 </Project>
