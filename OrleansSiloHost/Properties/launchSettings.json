@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "OrleansSiloHost": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "KeyVault": "https://serverlessorleansgeneric.vault.azure.net/secrets/serverlessorleansstorage/599b3d2a5e7c4ecb9d59d46fc856a0f1",
+        "DnsHost": "127.0.0.1"
+      }
+    }
+  }
+}
