@@ -15,7 +15,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Orleans.Runtime.Abstractions" Version="3.0.2" />
         <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   
   </ItemGroup>
 
